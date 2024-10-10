@@ -1,3 +1,4 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +14,7 @@
     width: 1200px;
     margin: 20px auto;
     border: 5px solid black;
+    overflow: hidden; /* Para contener los elementos flotantes */
   }
   
   /* Header */
@@ -79,9 +81,9 @@
   /* Boxes */
   .caja {
     float: left;
-    width: 350px;
+    width: calc(33.33% - 40px); /* Ajustado para que las cajas quepan mejor */
     height: 250px;
-    margin: 20px 40px;
+    margin: 20px;
     border-radius: 5px;
     background-color: #eee;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
@@ -123,3 +125,4 @@
     line-height: 55px;
     clear: both;
   }
+  
