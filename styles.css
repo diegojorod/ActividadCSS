@@ -14,7 +14,7 @@
     width: 1200px;
     margin: 20px auto;
     border: 5px solid black;
-    overflow: hidden; /* Para contener los elementos flotantes */
+    overflow: hidden; 
   }
   
   /* Header */
@@ -81,7 +81,7 @@
   /* Boxes */
   .caja {
     float: left;
-    width: calc(33.33% - 40px); /* Ajustado para que las cajas quepan mejor */
+    width: calc(50% - 40px); 
     height: 250px;
     margin: 20px;
     border-radius: 5px;
@@ -106,7 +106,7 @@
   
   /* Sidebar */
   #lateral {
-    float: left;
+    float: right; 
     width: 25%;
     min-height: 500px;
     max-height: 1165px;
@@ -125,4 +125,3 @@
     line-height: 55px;
     clear: both;
   }
-  
